@@ -1,3 +1,5 @@
+# fibonacci.rb
+
 def fibonacci(num)
   if num < 2
     num
@@ -5,4 +7,7 @@ def fibonacci(num)
     fibonacci(num - 1) + fibonacci(num - 2)
   end
 end
-puts fibonacci(5)
+
+puts fibonacci(39)
+
+# 39th place in the sequence is where (in my opinion) you really see a significant difference in efficiency when searching through - wildly noticible slow down 
